@@ -1,0 +1,373 @@
+
+h1,h2,h3,h4,h5{
+    font-family: 'Inter', sans-serif;
+
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    color:#606176;
+
+}
+/*************************************************** Navbar ********************************************/
+.hero-cta{
+    display: flex;
+    margin-left: auto;
+}
+.navbar-nav{
+    margin-left: auto;
+}
+.navbar-nav a{
+    font-family: Inter;
+}
+.btn-sign-in{
+    width: 125px;
+    height: 50px;
+    background: #E8F1FF;
+    border-radius: 12px;
+    border: none;
+    color: #2378FF;
+}
+
+/* ****************************hero Content****************************** */
+
+.hero-row{
+    
+}
+.hero-text h1{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72px;
+    /* max-width: 80%; */
+}
+.hero-text p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    /* max-width: 70%; */
+    
+}
+.btn-get-started{
+    width: 200px;
+    height: 62px;  
+    background: #F77E53;
+    border-radius: 16px;
+    border:none;
+    color:#fff;
+}
+.start-link{
+    display:flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap:1rem;
+    margin-top: 2rem;
+}
+.start-link p a{
+    font-size: 15px;
+}
+
+/* ***********************************University*********************************** */
+.university-no h1{
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 75px;
+}
+.university-no p{
+    width: 251px;
+    height: 56px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.01em
+}
+
+/* *************************************Online School Content****************************************************** */
+.online-content h1{
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 50px;    
+    letter-spacing: -0.01em;
+    margin-bottom: 6rem;
+}
+
+
+/* ***************************************Courses******************************************** */
+.btn-view-courses{
+    width: 100%;
+    height: 60px;
+    background: transparent;
+    border-radius: 12px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    font-size: 18px;
+    color: #2076FF;
+    border-color: #2076FF;
+    margin-left: auto;
+}
+.left-btn{
+    margin-left: auto;
+}
+
+.course-heading{
+    width: 216px;
+    height: 52px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    /* or 130% */
+    letter-spacing: -0.01em;
+    color: #101130;
+    margin-top: 1.5.rem;    
+}
+
+.detail-icons{
+    width:20px;
+}
+
+.details{
+    display:flex;
+    gap: 4rem;
+}
+
+.course-card{
+    width: 270px;
+    height: 390px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 35px -5px rgba(0, 0, 0, 0.03);
+    border-radius: 14px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.course-card button{
+    width: 240px;
+    height: 40px;
+    background:transparent;
+    border-color:#2076FF;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    gap: 0.8rem;
+    border-radius: 12px;
+    margin-top: 1rem;
+}
+.course-card p{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.car-container{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* *********************************Transform your life .... ********************************************************/
+.education h1{
+    
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 56px;
+    letter-spacing: -0.01em;    
+    color: #101130;
+    
+}
+.education p{
+   
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/* **********************************************Testimonials **************************************************/
+.testimonials h1{
+    width: 476px;
+    height: 112px;    
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 56px;
+    /* or 127% */
+    letter-spacing: -0.01em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+}
+.testimonial p{
+       
+    font-weight: 400;
+    font-size: 18px;
+    /* line-height: 30px; */
+}
+.testimonial h5{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 28px;
+}
+.testimonial-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.info{
+    line-height:1;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+/* ***************************************Prices / Plans / Buy ****************************************/
+.price-card{
+    width: 305px;
+    height: 567px;   
+    /* opacity: 0.3; */
+    border-radius: 18px;
+    margin-left: auto;
+    margin-right: auto;
+ 
+  
+}
+.pc-1{
+    background: #EDF3FF;
+
+}
+.pc-2{
+    background:#FEF0C3;
+}
+.pc-3{
+    background: #FEE6DC;
+}
+
+.price-card h1{
+    color: #000!important;
+    position: relative;
+    z-index: 4;
+    text-align: center;
+    margin-top: 2rem;
+}
+.price-card ul{
+    color:#606176;
+    /* margin-left: auto; */
+   
+}
+.price-card .plan-list{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    font-size: 20px;
+}
+.price-card .regular li::marker {
+    color:  #2076FF;
+}
+.price-card .medium li::marker {
+    color:  #F6C07A;
+}
+.price-card .premium li::marker {
+    color:  #F77E53;
+}
+
+
+
+.top{
+    width: 305px;
+    height: 100px;
+    color: #fff;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    /* background: #2076FF; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 38px;
+}
+.top-1{
+    background: #2076FF;
+}
+.top-2{
+    background: #F6C07A;
+}
+.top-3{
+    background: #F77E53;
+}
+
+.my-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+
+}
+
+
+.btn-plan{
+    width: 260px;
+    height: 70px;    
+    border-radius: 18px;
+    background: transparent;
+    font-family: Inter;
+    font-size:20px;
+   
+   
+}
+.btn-regular{
+    border-color: #2076FF;
+    color: #2076FF;
+}
+.btn-medium{
+    border-color: #F6C07A;
+    color: #F6C07A;
+}
+.btn-premium{
+    border-color: #F77E53;
+    color: #FFF;
+    background: #F77E53;
+}
+
+/* *******************************************************Footer ********************************************************************* */
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer li{
+    list-style:none;
+    text-align: left;
+}
+
+.download-btns{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.download{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1rem;
+}
+.footer-list{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+.footer-list li{
+    /* text-align: left; */
+
+}
+.f-paragraph{
+    width: 100%;
+}
+.list-2 ul{
+    margin-left: auto;
+    margin-right: auto;
+}
